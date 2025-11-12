@@ -44,7 +44,7 @@ export default function Login({ onSuccess }: { onSuccess: () => void }) {
                 <span className="text-xl font-semibold tracking-tight">PSReletric.com</span>
               </div>
               <div className="text-xs text-slate-500">
-                Login • RR DNS (mock) • Servidor: <span className="font-mono">{hostname}</span>
+                Login • Servidor: <span className="font-mono">{hostname}</span>
               </div>
             </div>
 
@@ -76,10 +76,10 @@ export default function Login({ onSuccess }: { onSuccess: () => void }) {
 
               <div className="flex items-center justify-between text-xs text-slate-500">
                 <button type="button" onClick={() => fillMock(0)} className="underline underline-offset-4 hover:text-slate-700">
-                  Mock: paulo / 1234
+                  Senha: paulo / 1234
                 </button>
                 <button type="button" onClick={() => fillMock(1)} className="underline underline-offset-4 hover:text-slate-700">
-                  Mock: nathan / abcd
+                  Senha: nathan / abcd
                 </button>
               </div>
             </form>
@@ -87,7 +87,7 @@ export default function Login({ onSuccess }: { onSuccess: () => void }) {
         </div>
 
         <p className="text-center text-xs text-slate-500 mt-4">
-          PSReletric.com • demo 3 camadas • sessão simulada
+          PSReletric.com • sessão simulada
         </p>
       </div>
     </div>
